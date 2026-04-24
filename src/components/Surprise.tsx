@@ -76,7 +76,7 @@ export default function Surprise() {
                     I Love You Baby.
                   </p>
                   <motion.img
-                    src="images/hands2.jpg"
+                    src="/hands2.jpg"
                     alt="love"
                     className="w-48 md:w-64 rounded-2xl shadow-xl mt-4"
                     animate={{ scale: [1, 1.05, 1] }}
