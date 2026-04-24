@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;1,300&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+  --color-immersive-bg: #1a0b16;
+  --color-immersive-accent: #4c1d3d;
+}
+
+@layer base {
+  body {
+    @apply bg-immersive-bg text-rose-100 overflow-x-hidden antialiased;
+    background: radial-gradient(circle at 50% 40%, var(--color-immersive-accent) 0%, var(--color-immersive-bg) 70%);
+    background-attachment: fixed;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.3)];
+  }
+  
+  .glow-text {
+    @apply drop-shadow-[0_0_15px_rgba(255,100,150,0.4)];
+  }
+}
