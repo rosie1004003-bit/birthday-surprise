@@ -6,12 +6,12 @@
 import { motion } from "motion/react";
 
 const photos = [
-  { url: "images/pair1.jpg", title: "My love" },
-  { url: "images/hands.jpg", title: "together forever" },
-  { url: "images/pair2.jpg", title: "My soul" },
-  { url: "images/mv.jpg", title: "Mine..." },
-  { url: "images/pair 3.jpg", title: "My happiness" },
-  { url: "images/single.jpg", title: "Ennavane..." },
+  { url: "/pair1.jpg", title: "My love" },
+  { url: "/hands.jpg", title: "together forever" },
+  { url: "/pair2.jpg", title: "My soul" },
+  { url: "/mv.jpg", title: "Mine..." },
+  { url: "/pair 3.jpg", title: "My happiness" },
+  { url: "/single.jpg", title: "Ennavane..." },
 ];
 
 export default function Gallery() {

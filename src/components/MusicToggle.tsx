@@ -54,7 +54,7 @@ export default function MusicToggle() {
 
       <audio
         ref={audioRef}
-        src="audio/song.mp3"
+        src="/song.mp3"
         loop
       />
     </div>
